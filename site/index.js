@@ -1,11 +1,15 @@
+import "./fib";
+
 const js = import("../pkg/hello_wasm.js");
 
 js.then(js => {
-  // js.greet("WebAssembly");
-  js.run();
-  console.log("start calculate...");
+  console.log("start calculate by wasm...");
   console.time("wasm");
-  js.fib(45);
+
+  const res = js.fibonacci(50000);
+  console.log("result is: ", res);
+
   console.timeEnd("wasm");
-  console.log("end calculate")
+  console.log("end calculate by wasm")
 })
+
