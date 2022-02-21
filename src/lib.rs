@@ -22,3 +22,12 @@ pub fn greet(name: &str) {
 pub fn run(){
     log("Hello from console log");
 }
+
+#[wasm_bindgen]
+pub fn fib(i: u32) -> u32 {
+    match i {
+        0 => 0,
+        1 => 1,
+        _ => fib(i-1) + fib(i-2)
+    }
+}
