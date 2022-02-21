@@ -6,9 +6,6 @@
   "scripts": {
     "serve": "webpack-dev-server"
   },
-  "dependencies": {
-    "@ruili/hello-wasm": "^0.1.0"
-  },
   "devDependencies": {
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.69.1",

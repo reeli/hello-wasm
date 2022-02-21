@@ -1,5 +1,6 @@
-const js = import("./node_modules/@ruili/hello-wasm/hello_wasm.js");
+const js = import("../pkg/hello_wasm.js");
 
 js.then(js=>{
   js.greet("WebAssembly");
+  js.run();
 })

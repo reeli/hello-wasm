@@ -1,14 +1,10 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@ruili/hello-wasm': ^0.1.0
   html-webpack-plugin: ^5.5.0
   webpack: ^5.69.1
   webpack-cli: ^4.9.2
   webpack-dev-server: ^4.7.4
-
-dependencies:
-  '@ruili/hello-wasm': 0.1.0
 
 devDependencies:
   html-webpack-plugin: 5.5.0_webpack@5.69.1
@@ -43,10 +39,6 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
     dev: true
-
-  /@ruili/hello-wasm/0.1.0:
-    resolution: {integrity: sha512-W5tQEIq7WHjy6rWhEgYJVUZOImYqChqQNmV8VV4FOwu5wvioUXhOmjzcKZj9ZryvW0IjfnnpBEBoXtGqsJJWZA==}
-    dev: false
 
   /@types/body-parser/1.19.2:
     resolution: {integrity: sha512-ALYone6pm6QmwZoAgeyNksccT9Q4AWZQ6PvfwR37GT6r6FWUPguq6sUmNGSMV2Wr761oQoBxwGGa6DR5o1DC9g==}
